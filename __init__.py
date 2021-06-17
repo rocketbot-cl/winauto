@@ -51,7 +51,7 @@ if module == "click":
             "release": mouse.release
         }
 
-        coord = (int(c) for c in coord.split(","))
+        coord = tuple(int(c) for c in coord.split(","))
         click[option](button=type_, coords=coord)
 
 
@@ -64,7 +64,8 @@ if module == "move":
     coord = GetParams("coord")
 
     try:
-        coord = (int(c) for c in coord.split(","))
+        coord = tuple(int(c) for c in coord.split(","))
+        print(coord)
         mouse.move(coords=coord)
 
     except Exception as e:
