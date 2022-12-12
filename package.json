@@ -2,7 +2,7 @@
   "author": "Danilo Toro - Rocketbot",
   "description": "Pywinauto module on Rocketbot",
   "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
-  "version": "1.0",
+  "version": "1.0.1",
   "license": "MIT",
   "homepage": "http://rocketbot.co",
   "linux": false,
@@ -45,11 +45,19 @@
               "es": "150,310",
               "en": "150,310"
             },
+            "description": {
+              "es": "Coordenadas X,Y separadas por coma",
+              "en": "X,Y coordinates separated by comma"
+            },
             "id": "coord",
             "css": "col-md-12"
           },
           {
             "type": "select",
+            "placeholder": {
+              "es": "Simple",
+              "en": "Simple"
+            },
             "title": {
               "es": "Opciones: ",
               "en": "Options: "
@@ -72,11 +80,19 @@
                 "value": "release"
               }
             ],
+            "description": {
+              "es": "Opciones de click",
+              "en": "Click options"
+            },
             "id": "option",
             "css": "col-md-12"
           },
           {
             "type": "select",
+            "placeholder": {
+              "es": "Left",
+              "en": "Left"
+            },
             "title": {
               "es": "Tipo: ",
               "en": "Type: "
@@ -95,6 +111,10 @@
                 "value": "middle"
               }
             ],
+            "description": {
+              "es": "Tipo de click",
+              "en": "Click type"
+            },
             "id": "type",
             "css": "col-md-12"
           }
@@ -138,6 +158,10 @@
             "placeholder": {
               "es": "150,310",
               "en": "150,310"
+            },
+            "description": {
+              "es": "Coordenadas X,Y separadas por coma",
+              "en": "X,Y coordinates separated by comma"
             },
             "id": "coord",
             "css": "col-md-12"
@@ -183,6 +207,10 @@
               "es": "150,310",
               "en": "150,310"
             },
+            "description": {
+              "es": "Coordenadas X,Y",
+              "en": "X,Y coordinates"
+            },
             "id": "coord",
             "css": "col-md-12"
           },
@@ -195,6 +223,10 @@
             "placeholder": {
               "es": "3",
               "en": "2"
+            },
+            "description": {
+              "es": "Cantidad de vueltas",
+              "en": "Number of turns"
             },
             "id": "dist",
             "css": "col-md-12"
