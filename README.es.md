@@ -1,12 +1,12 @@
 # WinAuto
   
-Pywinauto module on Rocketbot  
+Módulo de PyWinAuto para Rocketbot. 
 
 *Read this in other languages: [English](README.md), [Español](README.es.md).*
 
-## How to install this module
+## Como instalar este módulo
   
-__Download__ and __install__ the content in 'modules' folder in Rocketbot path  
+__Descarga__ e __instala__ el contenido en la carpeta 'modules' en la ruta de Rocketbot.  
 
 
 
@@ -14,13 +14,13 @@ __Download__ and __install__ the content in 'modules' folder in Rocketbot path
 
 
 1. Click  
-Command to click by coordinates
+Comando para hacer click por coordenadas
 
-2. Move  
-Command to move mouse by coordinates
+2. Mover  
+Comando para mover mouse por coordenadas
 
 3. Scroll  
-Command to scroll by coordinates  
+Comando para scroll por coordenadas  
 
 
 
